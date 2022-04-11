@@ -1,13 +1,15 @@
+// ignore_for_file: prefer_const_constructors, constant_identifier_names
+
 import 'package:flutter/material.dart';
 import 'package:flutter_firebase_authentication_demo/screens/home_screen.dart';
 import 'package:flutter_firebase_authentication_demo/screens/login_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_firebase_authentication_demo/screens/registration_screen.dart';
 
-const Color1 = const Color(0xff555692);
-const Color2 = const Color(0xff8587DC);
-const Color3 = const Color(0xffACADFF);
-const Color4 = const Color(0xffa1a4d5);
+const Color1 = Color(0xff555692);
+const Color2 = Color(0xff8587DC);
+const Color3 = Color(0xffACADFF);
+const Color4 = Color(0xffa1a4d5);
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
